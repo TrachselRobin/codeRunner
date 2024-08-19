@@ -6,6 +6,29 @@ document.getElementById('runButton').addEventListener('click', function() {
     outputDiv.textContent = '';
 
     try {
+        document.getElementById = "";
+        document.getElementsByClassName = "";
+        document.getElementsByTagName = "";
+        document.getElementsByName = "";
+        document.querySelector = "";
+        document.querySelectorAll = "";
+        document.createElement = "";
+        document.write = "";
+        document.writeln = "";
+        document.outerHTML = "";
+        document.head = "";
+        document.body = "";
+        document.location = "";
+        document.cookie = "";
+        document.URL = "";
+        document.domain = "";
+        document.referrer = "";
+        document.title = "";
+        document.documentURI = "";
+        document.documentURIObject = "";
+        document.documentURIObject.href = "";
+        document.documentURIObject.protocol = "";
+
         // Definiere vorprogrammierte Funktionen
         function vorprogrammierteFunktion1() {
             return 'Vorprogrammierte Funktion 1 aufgerufen!';
